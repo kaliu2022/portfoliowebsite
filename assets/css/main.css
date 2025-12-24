@@ -658,13 +658,16 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 		}
-
-		.center {
+		
+		.full-screen-container {
+		width: 100vw; /* 100% of the viewport width */
+		height: 100vh; /* 100% of the viewport height */
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 50%;
+		/* Add other styles like background color or content alignment here */
 		}
+
 		.image img {
 			border-radius: 4px;
 			display: block;
